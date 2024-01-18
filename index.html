@@ -1,0 +1,85 @@
+<html>
+    <head>
+<!-- guestbook.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buku Tamu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Buku Tamu</h1>
+
+        <form action="submit_guestbook.php" method="post">
+            <label for="name">Nama:</label>
+            <input type="text" id="name" name="name" required>
+                        
+        <form action="submit_guestbook.php" method="post>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="Nomor Hp">Nomor HP:</label>
+            <input type="text" id="No Hp" name="NO HP" required>
+            <label for="message">Tujuan:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <button type="submit">Kirim Pesan</button>
+        </form>
+
+        <h2>Entri Buku Tamu</h2>
+        <div class="guestbook-entries">
+            <!-- Tempat untuk menampilkan entri buku tamu -->
+        </div>
+    </div>
+</body
+<footer>
+    <div class="container mt-3">
+        <div class="row tautan">
+            <div class="col-4" style="border-right:1px solid green">
+                <div class="wrapper-col-1">
+                    <label><b>Area Pelayanan Terpadu</b></label>
+                    <p>
+                        Jl. Raya Serang - Cilegon, KM.03<br>
+                        Serang 42162
+                    </p>
+                </div>
+            </div>
+            <div class="col-4" style="border-right:1px solid green">
+                <div class="wrapper-col-2">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <label><b>Tautan</b></label>
+                        </div>
+                        <div class="col-md-9">
+                            <a href="https://www.kemenkeu.go.id" target="_blank" style="color:#098d44">Kementerian Keuangan</a><br>
+                            <a href="https://www.djkn.kemenkeu.go.id" target="_blank" style="color:#098d44">DJKN</a><br>
+                            <a href="https://www.djkn.kemenkeu.go.id/kpknl-serang" target="_blank" style="color:#098d44">KPKNL Serang</a><br>
+                            <a href="https://lelang.go.id/" target="_blank" style="color:#098d44">lelang.go.id</a><br>
+                            <a href="http://www.wise.kemenkeu.go.id/" target="_blank" style="color:#098d44">Wise</a><br>
+                            <a href="http://https://s.id/sindangheula/" target="_blank" style="color:#098d44">SINDANGHEULA</a>
+                        </div>
+                    </div>
+                </div>
+            
+            </div>
+            <div class="col-4">
+                <div class="wrapper-col-2">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <label><b>Media Sosial</b></label>
+                        </div>
+                        <div class="col-md-7">
+                            <div class="wrapper-icon">
+                                <a href="https://www.facebook.com/kantorkpknlserang" target="_blank"><img src="https://hai.kemenkeu.go.id/file.php/123104NTJHDTNYRT123103920A150EA/64ffdd9f42cd0_fb-green.png"></a>
+                                <a href="https://www.instagram.com/kpknlserang/" target="_blank"><img src="https://hai.kemenkeu.go.id/file.php/123104BWYZQTQXQW123103909E89FD2/64ffdd9e99e8c_instagram-green.png"></a>
+                                <a href="https://twitter.com/ditjenkn" target="_blank"><img src="https://hai.kemenkeu.go.id/file.php/123104QKJSWAQXPS123103915D10CDA/64ffdd9ed5a25_twitter-green.png"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+</html>
